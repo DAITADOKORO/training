@@ -91,3 +91,14 @@ $(function(){
   });
 });
 
+
+$(function(){
+  $('#open-button').click(function(){
+    $('#link-list').show();
+    $('#open-button').hide();
+  });
+  $('#close-button').click(function(){
+    $('#link-list').hide();
+    $('#open-button').show();
+  });
+});

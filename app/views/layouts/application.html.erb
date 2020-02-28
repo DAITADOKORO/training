@@ -10,9 +10,20 @@
   </head>
 
   <body>
-    <li>a</li>
-    <li>b</li>
-    <li>c</li>
+    <div id='open-button'>
+      <i class="fas fa-bars"></i>
+    </div>
+    <div id='link-list'>
+      <div id='close-button'>
+        <i class="fas fa-times"></i>
+      </div>
+      <li>a</li>
+      <li>b</li>
+      <li>c</li>
+    </div>
+    <script>
+      $('#link-list').hide();
+    </script>
     <%= yield %>
   </body>
 </html>
