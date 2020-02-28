@@ -94,8 +94,9 @@ $(function(){
 
 $(function(){
   $('#open-button').click(function(){
+    $('#link-list').fadeIn(1000);
     $('#link-list').show();
-    $('#open-button').hide();
+    $(this).hide();
   });
   $('#close-button').click(function(){
     $('#link-list').hide();
