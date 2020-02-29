@@ -91,15 +91,3 @@ $(function(){
   });
 });
 
-
-$(function(){
-  $('#open-button').click(function(){
-    $('#link-list').fadeIn(1000);
-    $('#link-list').show();
-    $(this).hide();
-  });
-  $('#close-button').click(function(){
-    $('#link-list').hide();
-    $('#open-button').show();
-  });
-});
